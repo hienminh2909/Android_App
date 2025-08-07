@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_11"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/QNam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢNG NAM"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="#E73E05"
+        app:layout_constraintTop_toTopOf="@id/main"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        app:layout_constraintRight_toRightOf="@id/main"
+
+        />
+
+    <TextView
+        android:id="@+id/gthieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gioithieu"
+        android:textSize="16sp"
+        android:textColor="#F46161"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        app:layout_constraintRight_toRightOf="@id/main"
+        app:layout_constraintTop_toBottomOf="@id/image_gthieu" />
+
+    <ImageView
+        android:id="@+id/image_gthieu"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/img_gthieu"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        app:layout_constraintRight_toRightOf="@id/main"
+        app:layout_constraintTop_toBottomOf="@id/QNam"
+        app:srcCompat="@drawable/img" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_dsan"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/DS"
+        android:backgroundTint="#E2ABBC"
+        app:layout_constraintTop_toBottomOf="@id/gthieu"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_vitri"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/VITRI"
+        android:backgroundTint="#E2ABBC"
+        app:layout_constraintTop_toBottomOf="@id/gthieu"
+        app:layout_constraintRight_toRightOf="@id/main"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_vanhoa"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/DULICH"
+        android:backgroundTint="#E2ABBC"
+        app:layout_constraintTop_toBottomOf="@id/btn_dsan"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_dichuyen"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/DICHUYEN"
+        android:backgroundTint="#E2ABBC"
+        app:layout_constraintTop_toBottomOf="@id/btn_vitri"
+        app:layout_constraintRight_toRightOf="@id/main"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_nhanxet"
+        android:text="@string/NhanXet"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/btn_vanhoa"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        app:layout_constraintRight_toRightOf="@id/main"
+        />
+
+    <EditText
+        android:id="@+id/ed_nhanxet"
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/ed_NhanXet"
+        android:textColorHint="#E7CFCF"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        app:layout_constraintTop_toBottomOf="@id/txt_nhanxet" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gửi"
+        android:backgroundTint="#40D0AE"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/ed_nhanxet"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+         />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

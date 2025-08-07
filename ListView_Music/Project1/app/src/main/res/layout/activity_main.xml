@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dangki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/txt_name"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        app:layout_constraintRight_toRightOf="@id/main"
+        app:layout_constraintTop_toTopOf="@id/main"
+        tools:layout_editor_absoluteX="0dp"
+        android:background="#0000ff"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txt_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:text="@string/txt_cao"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        app:layout_constraintTop_toBottomOf="@id/dangki" />
+
+    <EditText
+        android:id="@+id/ed_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:autofillHints="password"
+        android:hint="@string/ed_cao"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@id/txt_ten"
+        app:layout_constraintLeft_toRightOf="@id/txt_ten"
+        app:layout_constraintTop_toBottomOf="@id/dangki" />
+
+    <TextView
+        android:id="@+id/txt_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_nang"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        app:layout_constraintTop_toBottomOf="@id/txt_ten" />
+
+    <EditText
+        android:id="@+id/ed_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65sp"
+        android:layout_marginRight="65sp"
+        android:autofillHints="password"
+        android:hint="@string/ed_nang"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@id/txt_pass"
+        app:layout_constraintLeft_toRightOf="@id/txt_pass"
+        app:layout_constraintTop_toBottomOf="@id/ed_ten" />
+
+    <Button
+        android:id="@+id/btn_dk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#0000ff"
+        android:text="@string/btn"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        app:layout_constraintRight_toRightOf="@id/main"
+        app:layout_constraintTop_toBottomOf="@id/txt_pass" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/eye"
+        app:layout_constraintLeft_toRightOf="@id/ed_pass"
+        app:layout_constraintTop_toBottomOf="@id/ed_ten"
+        app:srcCompat="@drawable/password_eye" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintLeft_toLeftOf="@id/ed_ten"
+        app:layout_constraintTop_toBottomOf="@id/dangki"
+        app:srcCompat="@drawable/account"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

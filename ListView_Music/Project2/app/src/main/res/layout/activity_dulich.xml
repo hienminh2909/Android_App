@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dulich"
+    android:background="@drawable/img_14"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dulich">
+
+    <TextView
+        android:id="@+id/txt_dl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#00DDFF"
+        android:text="1.Phố cổ Hội An"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/dulich"
+        app:layout_constraintTop_toTopOf="@id/dulich" />
+
+    <ImageView
+        android:id="@+id/img_dl1"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        app:layout_constraintLeft_toLeftOf="@id/dulich"
+        app:layout_constraintRight_toRightOf="@id/dulich"
+        app:layout_constraintTop_toBottomOf="@id/txt_dl1"
+        app:srcCompat="@drawable/img_4" />
+
+    <TextView
+        android:id="@+id/nd_dl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HoiAn"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="@id/dulich"
+        app:layout_constraintTop_toBottomOf="@id/img_dl1" />
+
+    <TextView
+        android:id="@+id/txt_dl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00DDFF"
+        android:text="2.Cù Lao Chàm"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/dulich"
+        app:layout_constraintTop_toBottomOf="@id/nd_dl1" />
+
+    <ImageView
+        android:id="@+id/img_dl2"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        app:layout_constraintLeft_toLeftOf="@id/dulich"
+        app:layout_constraintRight_toRightOf="@id/dulich"
+        app:layout_constraintTop_toBottomOf="@id/txt_dl2"
+        app:srcCompat="@drawable/img_9" />
+
+    <TextView
+        android:id="@+id/nd_dl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Culaocham"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="@id/dulich"
+        app:layout_constraintTop_toBottomOf="@id/img_dl2" />
+
+    <TextView
+        android:id="@+id/txt_dl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00DDFF"
+        android:text="3.Hồ Phú Ninh"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/dulich"
+        app:layout_constraintTop_toBottomOf="@id/nd_dl2" />
+
+    <ImageView
+        android:id="@+id/img_dl3"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        app:layout_constraintLeft_toLeftOf="@id/dulich"
+        app:layout_constraintRight_toRightOf="@id/dulich"
+        app:layout_constraintTop_toBottomOf="@id/txt_dl3"
+        app:srcCompat="@drawable/img_10" />
+
+    <TextView
+        android:id="@+id/nd_dl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HoPhuninh"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="@id/dulich"
+        app:layout_constraintTop_toBottomOf="@id/img_dl3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "252460992241",
+    "firebase_url": "https://theo-doi-dht11-default-rtdb.firebaseio.com",
+    "project_id": "theo-doi-dht11",
+    "storage_bucket": "theo-doi-dht11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252460992241:android:17e33c9e62af1d542a4b50",
+        "android_client_info": {
+          "package_name": "com.example.cuoi_ky_iot_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7cZvJyXtpaorAYZqFz2PTWYBFpTTkRtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252460992241:android:894c7c991a7f598a2a4b50",
+        "android_client_info": {
+          "package_name": "com.example.theo_doi_dht11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7cZvJyXtpaorAYZqFz2PTWYBFpTTkRtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lich_su_ra_vao">
+
+    <TextView
+        android:id="@+id/txt_tieude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ BÃI GIỮ XE"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FF0909"
+        android:background="#05DEFF"
+        app:layout_constraintEnd_toEndOf="@id/main"
+        app:layout_constraintStart_toStartOf="@id/main"
+        app:layout_constraintTop_toTopOf="@id/main" />
+
+    <Button
+        android:id="@+id/btn_bienso"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:text="Nhập dữ liệu"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_tieude"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        android:backgroundTint="#00A3FF"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/btn_danhsach"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:text="Danh sách xe"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_tieude"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintLeft_toRightOf="@id/btn_bienso"
+        android:backgroundTint="#00A3FF"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/btn_lichsu"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Lịch sử"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_tieude"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintLeft_toRightOf="@id/btn_danhsach"
+        android:backgroundTint="#00A3FF"
+        android:textColor="@color/black"/>
+    <ListView
+        android:id="@+id/Lv_lichsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/btn_danhsach"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+    </ListView>
+    <ImageButton
+        android:id="@+id/btn_delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/delete"
+        android:visibility="visible"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

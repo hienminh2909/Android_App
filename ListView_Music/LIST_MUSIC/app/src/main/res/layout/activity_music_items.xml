@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_music_items">
+
+
+    <ImageView
+        android:id="@+id/img_singer"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        app:layout_constraintLeft_toLeftOf="@id/main"
+        app:layout_constraintTop_toTopOf="@+id/main"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_name"
+        android:textColor="#0993ED"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Name Music"
+        app:layout_constraintLeft_toRightOf="@id/img_singer"
+        app:layout_constraintTop_toTopOf="@+id/main"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_singer"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#F80505"
+        app:layout_constraintLeft_toRightOf="@id/img_singer"
+        app:layout_constraintTop_toTopOf="@id/txt_name"
+        android:layout_marginTop="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_play"
+        android:layout_width="54dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/nut_phat"
+        app:layout_constraintTop_toTopOf="@id/main"
+        app:layout_constraintRight_toRightOf="@id/main"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_stop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/nutdung"
+        app:layout_constraintLeft_toRightOf="@id/img_play"
+        app:layout_constraintRight_toRightOf="@id/main"
+        app:layout_constraintTop_toTopOf="@id/main"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="361dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

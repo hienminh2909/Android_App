@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dichuyen"
+    android:background="#BEE9EF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dichuyen">
+
+    <TextView
+        android:id="@+id/txt_dc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#00DDFF"
+        android:text="1. Máy bay"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/dichuyen"
+        app:layout_constraintTop_toTopOf="@id/dichuyen" />
+
+    <ImageView
+        android:id="@+id/img_dc1"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        app:layout_constraintLeft_toLeftOf="@id/dichuyen"
+        app:layout_constraintRight_toRightOf="@id/dichuyen"
+        app:layout_constraintTop_toBottomOf="@id/txt_dc1"
+        app:srcCompat="@drawable/img_6" />
+
+    <TextView
+        android:id="@+id/nd_dc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Maybay"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="@id/dichuyen"
+        app:layout_constraintTop_toBottomOf="@id/img_dc1" />
+
+    <TextView
+        android:id="@+id/txt_dc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00DDFF"
+        android:text="2.Tàu hỏa"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/dichuyen"
+        app:layout_constraintTop_toBottomOf="@id/nd_dc1" />
+
+    <ImageView
+        android:id="@+id/img_dc2"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="@id/dichuyen"
+        app:layout_constraintRight_toRightOf="@id/dichuyen"
+        app:layout_constraintTop_toBottomOf="@id/txt_dc2"
+        app:srcCompat="@drawable/img_7" />
+
+    <TextView
+        android:id="@+id/nd_dc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tauhoa"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="@id/dichuyen"
+        app:layout_constraintTop_toBottomOf="@id/img_dc2" />
+
+    <TextView
+        android:id="@+id/txt_dc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00DDFF"
+        android:text="3.Xe khách "
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/dichuyen"
+        app:layout_constraintTop_toBottomOf="@id/nd_dc2" />
+
+    <ImageView
+        android:id="@+id/img_dc3"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="@id/dichuyen"
+        app:layout_constraintRight_toRightOf="@id/dichuyen"
+        app:layout_constraintTop_toBottomOf="@id/txt_dc3"
+        app:srcCompat="@drawable/img_8" />
+
+    <TextView
+        android:id="@+id/nd_dc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Xekhach"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="@id/dichuyen"
+        app:layout_constraintTop_toBottomOf="@id/img_dc3" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

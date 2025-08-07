@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="btn">Đăng kí</string>
+    <string name="txt_name">Đăng kí Tài khoản</string>
+    <string name="txt_cao">Tên đăng nhập</string>
+    <string name="ed_cao">User Name</string>
+    <string name="txt_nang">Mật khẩu</string>
+    <string name="ed_nang">Password</string>
+    <string name="eye">Hiển thị mật khẩu</string>
+</resources>

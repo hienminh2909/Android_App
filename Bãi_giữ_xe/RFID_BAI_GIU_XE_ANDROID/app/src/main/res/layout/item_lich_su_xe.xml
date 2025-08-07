@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".item_lich_su_xe">
+
+    <TextView
+        android:id="@+id/tvBienSo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Biển số:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        app:layout_constraintTop_toBottomOf="@+id/tvBienSo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tv_tgXevao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Vào lúc:"
+        app:layout_constraintTop_toBottomOf="@+id/tvID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tv_tgXera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ra lúc:"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tgXevao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tv_action"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Action:"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tgXera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

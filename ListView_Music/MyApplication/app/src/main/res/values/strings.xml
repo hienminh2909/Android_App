@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="btn">Nut nhan</string>
+    <string name="txt_name">Hãy nhập chiều cao và cân nặng của bạn</string>
+    <string name="txt_cao">Chieu cao</string>
+    <string name="ed_cao">Nhap chieu cao</string>
+    <string name="txt_nang">Can nang</string>
+    <string name="ed_nang">Nhap can nang</string>
+</resources>

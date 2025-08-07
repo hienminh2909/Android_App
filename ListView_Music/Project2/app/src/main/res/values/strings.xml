@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="gioithieu">Quảng Nam “vùng đất địa linh nhân kiệt”, thiên nhiên đã ưu đãi và hào phóng dành cho nơi đây một địa thế thuận lợi với những di tích lịch sử
+ văn hóa nổi tiếng và những món ăn đặc sản.    </string>
+    <string name="img_gthieu">image_gthieu</string>
+    <string name="DS">Đặc sản </string>
+    <string name="VITRI">Vị trí   </string>
+    <string name="DULICH">Du lịch    </string>
+    <string name="DICHUYEN">Di chuyển     </string>
+    <string name="NhanXet"> Bạn có muốn khám phá mảnh đất Quảng Nam của tôi trong tương lai ?  </string>
+    <string name="ed_NhanXet">Bạn hãy nhập vào đây nhé ! </string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="HoPhuninh">Chỉ cách trung tâm thành phố Tam Kỳ 7km, Hồ Phú Ninh là một địa điểm du lịch sinh thái hấp dẫn của tỉnh Quảng Nam.
+        Với khí hậu mát mẻ, rừng nguyên sinh rộng lớn và hơn 20 đảo lớn cùng mỏ nước khoáng tự nhiên, bạn sẽ được hoà mình trong không gian thiên nhiên xanh mát và tham gia nhiều trò chơi, hoạt động ngoài trời thú vị!</string>
+    <string name="Culaocham"> Du lịch Cù Lao Chàm chắc chắn sẽ thu hút những du khách yêu thích khám phá vẻ đẹp tự nhiên hoang sơ của biển.
+        Không chỉ vậy, bạn cũng sẽ được tham gia nhiều hoạt động ngoài trời hào hứng như: chèo kayak, lặn ngắm san hô, nhảy dù,…</string>
+    <string name="MiQuang">Nhắc đến những đặc sản Quảng Nam, không thể nào bỏ qua mì quảng – món ăn ngon trứ danh của vùng đất này.
+        Giữa vô vàn các đặc sản nơi đây, mì quảng vẫn luôn giữ được chỗ đứng trong lòng của những ai yêu ẩm thực xứ Quảng.
+        Ngoài nguyên liệu chính là sợi mì và nước dùng, mì quảng còn được ăn kèm với thịt gà, thịt lợn, tôm, xá xíu, bánh đa, đậu phộng và các loại rau thơm làm tăng thêm hương vị.
+        Nét đặc biệt của món mì quảng tại Quảng Nam đó là sợi mì ở đây làm bằng bột gạo, trong khi đó nước dùng không nấu loãng mà nấu đặc hơn.</string>
+
+    <string name="ComGa">Tới Quảng Nam mà không ghé Tam Kỳ để thưởng thức món đặc sản cơm gà nức tiếng thực sự sẽ là một thiếu sót rất lớn.
+        Cơm gà Tam Kỳ được chế biến từ loại gà thả tự nhiên, còn tơ với phần thịt chắc, da mỏng và khi luộc lên sẽ có màu vàng ươm tự nhiên.
+        Sẽ có 2 cách để thưởng thức cơm gà Tam Kỳ là xé phay và chặt thành khúc, ăn kèm rau răm, dưa chua, các loại nộm thái sợi siêu ngon. </string>
+
+    <string name="Vitri">Tỉnh Quảng Nam nằm ngay giữa miền Trung Việt Nam, trong vùng kinh tế trọng điểm miền Trung gồm Thừa Thiên - Huế, Đà Nẵng, Quảng Nam, Quảng Ngãi, là địa phương đầu tiên trong cả nước triển khai mô hình Khu Kinh tế mở,
+        lại có 2 di sản văn hóa (Khu Di tích Mỹ Sơn và phố cổ Hội An) được thế giới công nhận.
+        Do đó, có thể nói Quảng Nam chứa đựng nhiều tiềm năng, cơ hội lớn để phát triển mạnh mẽ…</string>
+
+    <string name="HoiAn">Phố cổ Hội An là một khu đô thị cổ, tọa lạc tại hạ lưu sông Thu Bồn, tỉnh Quảng Nam, và cách Đà Nẵng khoảng 30km về phía Nam.
+        Với vị trí địa lý và khí hậu thuận lợi, Hội An từng là một trung tâm thương cảng quốc tế sầm uất, thu hút thuyền buôn từ Nhật Bản, Trung Quốc và phương Tây trong thế kỷ XVII và XVIII.</string>
+    <string name="MySon">Mặc dù thánh địa đã cùng nhân dân ta trải qua nhiều thăng trầm trong lịch sử, từ 2 cuộc chiến tranh chống thực dân Pháp và đế quốc Mỹ, nhưng thánh địa vẫn còn lưu giữ gần như nguyên vẹn những nét đẹp văn hóa của triều đại Champa.
+        Do đó mà vào năm 1999, khu di tích thánh địa Mỹ Sơn đã được UNESCO công nhận là di sản văn hóa thế giới.
+        Đến năm 2009, thánh địa đã được nhà nước ta công nhận là di tích lịch sử quốc gia đặc biệt.</string>
+
+    <string name="Ghichu"> * Ngoài ra còn nhiều di tích lịch sử khác, bạn có thể tìm kiếm trên mạng.</string>
+    <string name="Maybay"> Muốn rút ngắn thời gian di chuyển, du khách nên chọn di chuyển bằng máy bay.
+        Tuỳ thuộc lịch trình, bạn có thể chọn đáp xuống sân bay Đà Nẵng hoặc sân bay Chu Lai.</string>
+    <string name="Tauhoa"> Để tiết kiệm chi phí và linh động giờ khởi hành, du khách có thể lựa chọn tàu hoả. Tàu Bắc - Nam đều có chuyến tới Tam Kỳ (Quảng Nam) với nhiều khung giờ khác nhau.</string>
+    <string name="Xekhach"> ạn có thể dễ dàng bắt xe khách đường dài Bắc - Nam rồi xuống xe tại Quảng Nam. Hình thức di chuyển bằng xe khách tuy lâu nhưng cực tiết kiệm.</string>
+</resources>
