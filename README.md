@@ -16,3 +16,9 @@ Android Development Practice Projects
 - Firebase and MCU integration (real-time database, IOT system)
 - Modular mini-project structure
 - Practice-based learning approach
+
+**Key Highlights:**
+  - Hands-on Android development practice
+  - Experience with real-time cloud data (Firebase)
+  - Basic foundation for IoT mobile applications
+  - Clean separation of mini-project modules
